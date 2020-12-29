@@ -1,0 +1,379 @@
+/**************************
+PROJET : (nom du site)
+**************************/
+
+/**************************
+GLOBAL
+**************************/
+
+* {
+    box-sizing: border-box;
+    /**/
+    /* A SUPPRIMER (utile lors de la création du gabarit)  */
+}
+
+body {
+    word-wrap: break-word;
+    /* Pour que le texte ne dépasse pas du bloc parent */
+    background-color: #dbdbdb;
+}
+
+img,
+iframe,
+video {
+    max-width: 100%;
+    /* Pour que les éléments ne dépassent pas de leurs conteneurs */
+}
+
+img {
+    vertical-align: middle;
+    /* Pour enlever la marge basse par défaut */
+}
+
+.flex {
+    display: flex;
+    /*positionner les enfants l'un à côté de l'autre*/
+    justify-content: space-between;
+    /*les enfants occupent toute la largeur du bloc parent*/
+    flex-wrap: wrap;
+    /*Lorsqu’il n’y a plus assez de place en largeur, les enfants se placent les uns sous les autres*/
+}
+
+#entete,
+#menu,
+#colonne,
+#pied,
+#page {
+   
+    margin-bottom: 2px;
+}
+
+
+
+.fond {
+    background-image: url(../img/mercedes-3510327_1920.jpg);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo,
+.menu {
+    
+    min-height: 30px;
+    background-color: rgba(62, 62, 62, 0.53);
+    font-size: 25px;
+    border-radius: 30px;
+    font-family: 'Actor', sans-serif;
+    color: #fff;
+
+
+}
+
+.barrefixe {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.49);
+    box-shadow: 0px 2px 5px 0px #656565;
+}
+
+.logo {
+    width: 200px;
+    
+
+    text-align: center;
+    margin: 0;
+}
+
+.menu {
+    width: 600px;
+   
+    margin: 0;
+
+
+}
+
+.nav1 {
+    margin: 0;
+    padding: 0 5px 0 5px;
+}
+.nav1 a:hover{
+    background-color: rgba(255, 255, 255, 0.28);
+    border-radius: 10px;
+    padding: 0;
+    
+}
+
+.active{
+  background-color: rgba(255, 255, 255, 0.28);
+   border-radius: 10px; 
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+
+}
+#colonne a{
+    font-size: 15px;
+}
+
+h2{
+    padding-top: 40px;
+}
+
+/* Structure */
+
+.conteneur {
+    
+    width: 960px;
+    margin: 0 auto;
+}
+
+.fond2 {
+    background-color: #8b7d72;
+}
+
+.page {
+    min-height: 50px;
+    width: 700px;
+}
+
+.section1 {
+   
+    width: 700px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+
+}
+
+.titresection {
+    text-align: center;
+    font-family: 'Actor', sans-serif;
+    color: #fff;
+}
+
+/* page vehicule*/
+h1 {
+    text-align: center;
+    font-family: 'Actor', sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
+
+.berline {
+    font-size: 25px;
+    font-family: 'Actor', sans-serif;
+    text-align: center;
+}
+
+.citadine {
+    font-size: 25px;
+    font-family: 'Actor', sans-serif;
+    text-align: center;
+}
+
+.monospace {
+    font-size: 25px;
+    font-family: 'Actor', sans-serif;
+    text-align: center;
+}
+
+
+.paccueil {
+    font-family: 'Hind Vadodara', sans-serif;
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}
+
+img {
+    border-radius: 30px;
+}
+
+.section2 {
+   
+    width: 700px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.sportive {
+    font-size: 25px;
+    font-family: 'Actor', sans-serif;
+    text-align: center;
+}
+
+.section3 {
+ 
+    width: 700px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.utilitaire {
+    font-size: 25px;
+    font-family: 'Actor', sans-serif;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    display: inline;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Hind Vadodara', sans-serif;
+
+}
+
+.button:hover {
+    background-color: #330909;
+    border-radius: 30px;
+    
+}
+.blanc{
+    color: #dbdbdb;
+     font-family: 'Hind Vadodara', sans-serif;
+}
+
+
+
+#colonne {
+    width: 200px;
+    min-height: 400px;
+
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Actor', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+ul {
+    text-align: left;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+#colonne a {
+    color: black;
+}
+#colonne a:hover{
+    color: #fff;
+}
+
+.fondpied {
+    background-color: #222021;
+}
+
+#pied {
+    min-height: 100px;
+    text-align: center;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+small {
+    color: #fff;
+}
+
+/* Nos tarifs*/
+table,
+td,
+th {
+    border: 1px solid black;
+    background-color: #8c8c8e;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+tr {
+    height: 100px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+td {
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th {
+    height: 100px;
+}
+
+.contactform{
+    background-color: rgba(59, 59, 59, 0.63);
+}
+
+input{
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px 0px #656565;
+    background-color: rgba(0, 0, 0, 0.88);
+    padding-left: 10px;
+ 
+}
+input:focus {
+    background-color: #1a242a;
+    color: #fff;
+    font-size: 25px;
+    }
+input[type="text"]{
+    color: aliceblue;
+}
+input[type="email"]{
+    color: aliceblue;
+}
+
+textarea{
+    margin: 10px;
+    border-radius: 20px;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0.88);
+    padding-left: 10px;
+    box-shadow: 0px 2px 5px 0px #656565;
+}
+textarea:focus {
+    background-color: #1a242a;
+    color: #fff;
+    font-size: 25px;
+    }
+textarea[type="text"]{
+    color: aliceblue;
+}
+textarea[id="message"]{
+    color: aliceblue;
+}
+
+.submit{
+    background-color: rgba(129, 7, 7, 0.76);
+    color: aliceblue
+}
+iframe{
+    border-radius: 10px;
+}
+
+.pagence{
+    font-family: 'Hind Vadodara', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+

@@ -1,0 +1,45 @@
+ @media screen and (max-width: 960px) {
+
+    .conteneur {
+      width : 100%;
+    
+}
+     #colonne{
+        width: 20%;
+     }
+     .menu{
+         width: 100%;
+     }
+     .logo{
+         width: 100%;
+     }
+     .page{
+         width: 100%;
+     }
+     .section1{
+         width: 100%;
+     }
+     .section2{
+         width: 100%;
+     }
+     .section3{
+         width: 100%;
+     }
+} /* Fin de la condition */
+
+@media screen and (max-width: 650px){
+    #colonne{
+        width: 50%;
+    }
+    .fond{
+        width: 100%;
+        min-height: 150px;
+    }
+    img{
+        max-width: 100%;
+    }
+    main{
+        width: auto;
+    }
+    
+}

@@ -1,0 +1,14 @@
+* {
+	font-family: arial;
+	font-size: 20px;
+}
+
+#out {
+	text-align: center;
+}
+
+#out div {
+	display: inline-block;
+	margin: 50px 20px;
+	text-align: center;
+}

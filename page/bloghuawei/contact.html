@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact | Blog Huawei</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/blog_style.css" />
+    <link rel="stylesheet" href="css/blog_mobile_style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="" content="" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <!--[if lt IE 9]>
+    
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js">
+</script>
+<![endif]-->
+
+    <script src="https://kit.fontawesome.com/dd342d87ae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="fondentete">
+        <header class="conteneur">
+            <div id="entete">
+                <h1 class="logo"><img src="favicon.ico"> Blog Huawei</h1>
+                <p class="slogan">Ce blog vous permettra de connaître les produits huawei,leurs subtilités afin de chosir celui qui vous correspondrait le mieux.(Smartphone,Tablettes,Ordinateur,Objets connectés,
+                 Accessoires).</p>
+            </div>
+        </header>
+    </div>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main class="conteneur flex">
+        <article id="page" class="fondcontact">
+            <h1>Où nous trouver</h1>
+            <address>
+                <p class="auteur">Contactez l'auteur de la page</p>
+
+                <a class="mail" href="mailto:chaibtektek@gmail.com"><i class="fas fa-at fa-2x"></i> chaibtektek@gmail.com</a><br>
+
+                <a class="mail" href="tel:0603743886"><i class="fas fa-phone-square-alt fa-2x"></i> Téléphone: 0603743886</a>
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11560.349009687541!2d1.4024537!3d43.5838989!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xef020371ce180798!2sAP%20Formation!5e0!3m2!1sfr!2sfr!4v1574079154012!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <div class="formulaire">
+                <form action="php/insertion_agent.php" method="post">
+                    <!--section 1-->
+                    <fieldset>
+                        <legend class="titrecontact">Contact</legend>
+
+                        <p>
+                            <!--Liste déroulante-->
+                            <label for="civilite">Civilité</label>
+                            <select id="civilite">
+                                <option value="Mme" selected="selected">Mme</option>
+                                <option value="Mlle">Mlle</option>
+                                <option value="Mr">Mr</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <!--Texte (une ligne simle)-->
+                            <label for="nom_agent">Nom :</label>
+                            <input type="text" name="nom_agent" id="nom_agent" placeholder="Nom" required />
+                        </p>
+                         
+                        <p>
+                            <!--Texte (une ligne simle)-->
+                            <label for="prénom_agent">Prénom:</label>
+                            <input type="text" name="prénom_agent" id="prénom_agent" placeholder="Prénom" required />
+                        </p>
+                        
+                        <p>
+                            <!--Email (obligatoire)-->
+                            <label for="email">Email :</label>
+                            <input type="email" id="email" name="email" placeholder="votre@dresse.fr" required />
+                        </p>
+
+                        <p>
+                            <!--Téléphone-->
+                            <label for="tel">Téléphone :</label>
+                            <input type="tel" name="tel" id="tel" />
+                        </p>
+
+
+                    </fieldset>
+                    <!--Fin section 1-->
+
+                    <!--Section 2-->
+                    <fieldset>
+                        <legend class="titrecontact"></legend>
+
+
+                        <!-- Zone de texte (plusieurs lignes)-->
+                        <p>
+                            <label for="message">Message</label>
+                            <br />
+                            <textarea name="message" rows="10"  id="message" placeholder="Votre message"></textarea>
+                        </p>
+                    </fieldset>
+                    <!--Fin section 2-->
+
+                    <input type="submit" value="Envoyer" />
+                    <input type="reset" value="Effacer" />
+
+                </form>
+            </div>
+
+        </article>
+        <aside id="colonne">
+             <h3><i class="icon fas fa-mobile fa-2x"></i>  Smartphone</h3>
+            <ul>
+                <li><a href="#">Haut de gamme</a></li>
+                <li><a href="#">Moyenne gamme</a></li>
+                <li><a href="#">Entrée de gamme</a></li>
+
+            </ul>
+            <h3><i class="icon fas fa-tablet fa-2x"></i> Tablette</h3>
+            <ul>
+                <li><a href="#">Haut de gamme</a></li>
+                <li><a href="#">Moyenne gamme</a></li>
+                <li><a href="#">Entrée de gamme</a></li>
+            </ul>
+            <h3><i class="icon fas fa-laptop fa-2x"></i> Ordinateur</h3>
+            <ul>
+                <li><a href="#">Haut de gamme</a></li>
+                <li><a href="#">Moyenne gamme</a></li>
+                <li><a href="#">Entrée de gamme</a></li>
+            </ul>
+             <h3><i class="icon fab fa-bluetooth fa-2x"></i>
+            Objets connectés</h3>
+            <ul>
+                <li><a href="#">Montre connectée</a></li>
+                <li><a href="#">Bracelet connecté</a></li>
+                <li><a href="#">Ecouteur sans fil</a></li>
+            </ul>
+            <h3><i class="icon fas fa-sd-card fa-2x"></i> Accessoires</h3>
+            <ul>
+                <li><a href="#">Câble</a></li>
+                <li><a href="#">Battérie externe</a></li>
+                <li><a href="#">Carte mémoire</a></li>
+            </ul>
+            <h3>Expérimentations</h3>
+            <ul>
+                <li><a href="zone-html5.html">Zone html5/css3</a></li>
+
+
+            </ul>
+        </aside>
+    </main>
+    <footer class="conteneur">
+        <div id="pied">
+            <small>&copy; 2019 - Chaib tektek</small>
+            <nav class="menu-pied">
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

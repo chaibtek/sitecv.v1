@@ -1,0 +1,26 @@
+* {
+	font-family: arial;
+}
+
+table {
+	margin: 50px auto;
+	border-collapse: collapse;
+	border: solid 2px black;
+}
+
+table tr:first-child {
+	font-weight: bold;
+}
+
+table td {
+	padding: 5px;
+	border: solid 1px black;
+}
+
+#familyName, #givenName {
+	cursor: pointer;
+}
+
+#familyName:hover, #givenName:hover {
+	color: red;
+}

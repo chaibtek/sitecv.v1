@@ -1,0 +1,54 @@
+@media screen and (max-width: 1000px) {
+
+    .conteneur {
+        width: 100%;
+    }
+
+   .fond1{
+       width: 100%;
+       
+   }
+
+   .fondheader{
+       width: 100%;
+      
+   
+   }
+
+ 
+   #menu{
+       width: 100%;
+   }
+
+   .fondapropos{
+       width: 100%;
+   }
+   .image {
+      width: 20%;
+      padding-top: 13px;
+   }
+   .description {
+       width: 75%;
+       height: 80%;
+   }
+   
+   .projetphp h2{
+       font-size: 11px;
+   }
+   .projetphp{
+    width: 500px; 
+   }
+   .projetphp p{
+      font-size: 7px;
+      padding-top: 15px;
+       
+   }
+
+   .projetphp a {
+       font-size: 8px;
+   }
+
+ 
+
+
+}

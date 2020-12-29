@@ -1,0 +1,78 @@
+ @media screen and (max-width:1000px) {
+
+     /* Debut condition < 1000px */
+     body {
+         background-color: red;
+     }
+
+     .conteneur {
+         width: 90%;
+     }
+
+     #page {
+         width: 70%;
+     }
+
+     #colonne {
+         width: 25%;
+
+     }
+
+
+     /* fin condition < 1000px */
+
+ }
+
+
+ @media screen and (max-width:650px) {
+
+     /* Début condition < 650px */
+     .logo {
+         margin-bottom: 10px;
+     }
+
+     .conteneur {
+         width: 99%;
+         padding: 0px;
+         margin: 0px;
+     }
+
+     #page {
+         width: 100%;
+     }
+
+     #colonne {
+         width: 100%;
+     }
+
+     #menu ul {
+         width: 100%
+     }
+
+     .stylep {
+         font-size: 100%;
+     }
+
+     textarea {
+         width: 100%;
+     }
+     
+     .fondentete{
+         background-image: none;
+         background-color: #373634;
+         
+     }
+     .slogan{
+         font-size: 15px;
+     }
+     .formulaire input:focus {
+    background-color: #434146;
+    color: #fff;
+    font-size: 15px;
+}
+     #entete{
+         min-height: 300px;
+     }
+     /* fin condition < 650px */
+ }
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Zone de tests</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/blog_style.css" />
+    <meta name="" content="" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/blog_mobile_style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+    
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js">
+</script>
+<![endif]-->
+</head>
+
+<body>
+    <div class="fondentete">
+
+        <header class="conteneur">
+            <div id="entete">
+                <h1 class="logo"><img src="favicon.ico">Blog Huawei</h1>
+                <p class="slogan">Ce blog va vous aider a comprendre les différents produits de huawei. (Smartphone,Tablettes,Ordinateur,Accessoires).</p>
+            </div>
+        </header>
+    </div>
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main class="conteneur flex">
+        <article id="page">
+            <h1>Zone de tests</h1>
+
+            <h3 class="figure1">figure</h3>
+            <figure>
+                <img src="img/HTML5.png" alt="logo html5" />
+                <figcaption>Logo html</figcaption>
+            </figure>
+
+            <h3>Audio</h3>
+            <audio controls="controls">
+                <source src="http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_stereo.ogg " type="audio/ogg" />
+
+
+            </audio>
+            <h3>Vidéo</h3>
+            <video width="320" height="180" controls="controls" poster="img/vignette.jpg">
+                <source src="http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_stereo.ogg " type="video/ogg" />
+                <a href="http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_1080p_stereo.ogg">vous pouvez télécharger</a>
+
+            </video>
+
+            <h3>iframe</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/e1P-Wlawk0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>canvas</h3>
+            <canvas id="myCanvas" width="200" height="100" style="border:1px solid#d3d3d3;">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.font = "30px Arial";
+                ctx.strokeText("Hello World", 10, 50);
+
+            </script>
+            <h3>progress</h3>
+            <label for="file">Progression:</label>
+
+            <progress id="file" max="100" value="70"> 70% </progress>
+            <h3>embed</h3>
+            <embed src="flash/demo-flash.swf" width="500" height="300" />
+            <p><em>(Si flash installé sur navigateur)</em></p>
+            <h2>Propriétés CSS3</h2>
+            <h3>Text shadow</h3>
+            <p class="ts">Ceci est un test avec ombrage</p>
+
+            <h3>Box shadow</h3>
+            <p><a href="#" class="bouton">Bouton</a></p>
+
+
+            <!-- *           -->
+            <h2>Alsacréations</h2>
+            <div class="alsa flex">
+                <ul>
+                    <li>
+                        <img src="img/10.jpg" alt="">
+                        <p><strong>Info:</strong>
+                            Lorem ipsum dolor</p>
+                    </li>
+                    <li>
+                        <img src="img/20.jpg" alt="">
+                        <p><strong>Info:</strong>
+                            Lorem ipsum dolor</p>
+                    </li>
+                    <li><img src="img/30.jpg" alt="">
+                        <p><strong>Info:</strong>
+                            Lorem ipsum dolor</p>
+                    </li>
+
+                </ul>
+            </div>
+            <h3>Column</h3>
+            <p class="colonne">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti deleniti dolorum laborum labore ab beatae dicta, corporis maiores velit esse enim nulla! Est impedit, error velit sapiente corrupti, harum obcaecati!</p>
+            <h3>Dégradés</h3>
+            <p><a href="" class="bouton2">Test</a> </p>
+            
+            <h3>Transform</h3>
+            <div class="transform">
+                <p>Un peu de texte</p>
+            </div>
+            
+            <h3>Animation</h3>
+            
+            <div class="animation"></div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+        </article>
+        <aside id="colonne">
+            <h3>Smartphone</h3>
+            <ul>
+                <li><a href="#">Haut de gamme</a></li>
+                <li><a href="#">Moyenne gamme</a></li>
+                <li><a href="#">Entrée de gamme</a></li>
+            </ul>
+            <h3>Tablette</h3>
+            <ul>
+                <li><a href="#">Haut de gamme</a></li>
+                <li><a href="#">Moyenne gamme</a></li>
+                <li><a href="#">Entrée de gamme</a></li>
+            </ul>
+            <h3>Ordinateur</h3>
+            <ul>
+                <li><a href="#">Haut de gamme</a></li>
+                <li><a href="#">Moyenne gamme</a></li>
+                <li><a href="#">Entrée de gamme</a></li>
+            </ul>
+            <h3>Accessoires</h3>
+            <ul>
+                <li><a href="#">Cable</a></li>
+                <li><a href="#">Battérie externe</a></li>
+                <li><a href="#">Carte mémoire</a></li>
+            </ul>
+            <h3>Expérimentations</h3>
+            <ul>
+                <li><a href="zone-html5.html">Zone html5/css3</a></li>
+
+
+            </ul>
+        </aside>
+    </main>
+    <footer class="conteneur">
+        <div id="pied">
+            <small>&copy; 2019 - Chaib tektek</small>
+            <nav class="menu-pied">
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

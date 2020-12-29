@@ -1,0 +1,26 @@
+*{
+    font-family: arial;
+    font-size: 15px;
+}
+select {
+    display: block;
+    margin: 20px auto;
+}
+
+
+table{
+   margin: 20px auto;
+}
+
+
+td {
+    text-align: center;
+}
+
+tr:first-child{
+    text-transform: capitalize;
+}
+
+td img {
+    margin: 0 10px;
+}
